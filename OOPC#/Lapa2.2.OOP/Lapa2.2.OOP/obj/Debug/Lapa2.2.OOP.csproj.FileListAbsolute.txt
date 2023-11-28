@@ -1,0 +1,8 @@
+D:\ЗУНУ 2 КУРС\ООП\Lapa2.2.OOP\Lapa2.2.OOP\bin\Debug\Lapa2.2.OOP.exe.config
+D:\ЗУНУ 2 КУРС\ООП\Lapa2.2.OOP\Lapa2.2.OOP\bin\Debug\Lapa2.2.OOP.exe
+D:\ЗУНУ 2 КУРС\ООП\Lapa2.2.OOP\Lapa2.2.OOP\bin\Debug\Lapa2.2.OOP.pdb
+D:\ЗУНУ 2 КУРС\ООП\Lapa2.2.OOP\Lapa2.2.OOP\obj\Debug\Lapa2.2.OOP.csproj.AssemblyReference.cache
+D:\ЗУНУ 2 КУРС\ООП\Lapa2.2.OOP\Lapa2.2.OOP\obj\Debug\Lapa2.2.OOP.csproj.SuggestedBindingRedirects.cache
+D:\ЗУНУ 2 КУРС\ООП\Lapa2.2.OOP\Lapa2.2.OOP\obj\Debug\Lapa2.2.OOP.csproj.CoreCompileInputs.cache
+D:\ЗУНУ 2 КУРС\ООП\Lapa2.2.OOP\Lapa2.2.OOP\obj\Debug\Lapa2.2.OOP.exe
+D:\ЗУНУ 2 КУРС\ООП\Lapa2.2.OOP\Lapa2.2.OOP\obj\Debug\Lapa2.2.OOP.pdb
