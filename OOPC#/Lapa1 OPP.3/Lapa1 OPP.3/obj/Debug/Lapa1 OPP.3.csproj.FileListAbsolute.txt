@@ -1,0 +1,8 @@
+D:\ЗУНУ 2 КУРС\ООП\Lapa1 OPP.3\Lapa1 OPP.3\bin\Debug\Lapa1 OPP.3.exe.config
+D:\ЗУНУ 2 КУРС\ООП\Lapa1 OPP.3\Lapa1 OPP.3\bin\Debug\Lapa1 OPP.3.exe
+D:\ЗУНУ 2 КУРС\ООП\Lapa1 OPP.3\Lapa1 OPP.3\bin\Debug\Lapa1 OPP.3.pdb
+D:\ЗУНУ 2 КУРС\ООП\Lapa1 OPP.3\Lapa1 OPP.3\obj\Debug\Lapa1 OPP.3.csproj.AssemblyReference.cache
+D:\ЗУНУ 2 КУРС\ООП\Lapa1 OPP.3\Lapa1 OPP.3\obj\Debug\Lapa1 OPP.3.csproj.SuggestedBindingRedirects.cache
+D:\ЗУНУ 2 КУРС\ООП\Lapa1 OPP.3\Lapa1 OPP.3\obj\Debug\Lapa1 OPP.3.csproj.CoreCompileInputs.cache
+D:\ЗУНУ 2 КУРС\ООП\Lapa1 OPP.3\Lapa1 OPP.3\obj\Debug\Lapa1 OPP.3.exe
+D:\ЗУНУ 2 КУРС\ООП\Lapa1 OPP.3\Lapa1 OPP.3\obj\Debug\Lapa1 OPP.3.pdb
