@@ -1,0 +1,8 @@
+D:\ЗУНУ 2 КУРС\ООП\Laba4.oop\Laba4.oop\bin\Debug\Laba4.oop.exe.config
+D:\ЗУНУ 2 КУРС\ООП\Laba4.oop\Laba4.oop\bin\Debug\Laba4.oop.exe
+D:\ЗУНУ 2 КУРС\ООП\Laba4.oop\Laba4.oop\bin\Debug\Laba4.oop.pdb
+D:\ЗУНУ 2 КУРС\ООП\Laba4.oop\Laba4.oop\obj\Debug\Laba4.oop.csproj.AssemblyReference.cache
+D:\ЗУНУ 2 КУРС\ООП\Laba4.oop\Laba4.oop\obj\Debug\Laba4.oop.csproj.SuggestedBindingRedirects.cache
+D:\ЗУНУ 2 КУРС\ООП\Laba4.oop\Laba4.oop\obj\Debug\Laba4.oop.csproj.CoreCompileInputs.cache
+D:\ЗУНУ 2 КУРС\ООП\Laba4.oop\Laba4.oop\obj\Debug\Laba4.oop.exe
+D:\ЗУНУ 2 КУРС\ООП\Laba4.oop\Laba4.oop\obj\Debug\Laba4.oop.pdb
