@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Table</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+
+            background-image: url("1669643029_7-pibig-info-p-neitralnii-fon-dlya-prezentatsii-pinterest-7.jpg");
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .table-container {
+            max-width: 80%;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+    <table>
+        <thead>
+        <tr>
+            <th>Стопчик 1</th>
+            <th>Стопчик 2</th>
+            <th>Стопчик 3</th>
+            <th>Стопчик 4</th>
+            <th>Стопчик 5</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function createRandomTable(rows, cols) {
+        var ukrAlphabet = ['а', 'б', 'в', 'г', 'ґ', 'д', 'е', 'є', 'ж', 'з', 'и', 'і', 'ї', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ь', 'ю', 'я'];
+
+        var table = document.querySelector('table tbody');
+
+        for (var i = 0; i < rows; i++) {
+            var row = table.insertRow();
+            for (var j = 0; j < cols; j++) {
+                var cell = row.insertCell();
+                var randomLetter = ukrAlphabet[Math.floor(Math.random() * ukrAlphabet.length)];
+                cell.textContent = randomLetter;
+                cell.style.backgroundColor = getRandomColor();
+            }
+        }
+    }
+
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
+    createRandomTable(5, 5);
+</script>
+
+</body>
+</html>

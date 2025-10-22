@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+           background-image: url("6ae4573e5f624e150a75eac81656ffce.jpg");
+            height: 50vh;
+            background-size: cover;
+            display: flex;
+        }
+        .form{
+
+            width: 410px; /* Задаємо ширину форми */
+            Height: 500px;
+            margin: 0 auto; /* Розміщуємо форму по центру сторінки */
+            background-color: rgba(255, 255, 255, 0.1); /* Прозорий білий колір */
+            padding: 20px; /* Внутрішній відступ форми */
+            border-radius: 10px; /* Закруглені кути форми */
+            border: 1px solid #ffffff; /* Білий тонкий ободок */
+
+        }
+        .input{
+            background: #2E2E2EBD;
+            width: 60%;
+            padding: 10px 0px 10px 0px;
+            gap: 0px;
+            display: block; /* Робимо кнопку блоковим елементом */
+            margin: 0 auto; /* Автоматичне вирівнювання по центру по горизонталі */
+            margin-top: 10px;
+        }
+        h2{
+            text-align: center;
+            color: white;
+            font-family: Roboto;
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 52px;
+        }
+        .input::placeholder{
+        //styleName: M3/body/large;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            text-align: left;
+            color: #FFFFFF;
+        }
+        .button{
+
+            background: linear-gradient(176.05deg, #6750A4 3.21%, #271E3E 101.45%);
+            display: block; /* Робимо кнопку блоковим елементом */
+            margin: 0 auto; /* Автоматичне вирівнювання по центру по горизонталі */
+            padding: 10px 24px 10px 24px;
+            gap: 8px;
+            color: white;
+            top: 706px;
+            left: 623px;
+            border-radius: 100px;
+        //styleName: M3/label/large;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: center;
+            width: 200px; /* Задаємо бажану ширину кнопки */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<form class="form" action="process.php" method="post">
+    <h2 class="h2" >Заповніть дані</h2>
+
+    <input class="input" type="text" placeholder="Прізвище" id="surname" name="surname" required><br>
+
+    <input class="input" type="text"placeholder="Ім'я" id="name" name="name" required><br>
+
+    <input class="input" type="number" placeholder="Вік" id="age" name="age" required><br>
+
+    <input class="input" type="email"  placeholder="Email" id="email" name="email" required><br>
+    <input class="button" type="submit" value="ГОТОВО">
+</form>
+</body>
+</html>

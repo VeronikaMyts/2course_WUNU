@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    border: 2px solid #61dafb;
+    width: 310px;
+    padding: 5px;
+    background-color: #61dafb;
+    border-radius: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+    background-color: #282c34;
+    transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+    background-color: #61dafb;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.reset-btn:hover {
+    background-color: #45a049;
+}
+
+.status {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+
+button {
+    --hover: 0;
+    --button-bg: hsla(187, 84%, 44%, 0.9); /* оновлено */
+    --button-border: hsl(187, 84%, 39%); /* оновлено */
+    --button-label: hsl(197, 100%, 94%); /* оновлено */
+    --button-shadow-1: hsla(187, 77%, 38%, 0.35); /* оновлено */
+    --button-shadow-2: hsla(200, 100%, 20%, 0.55); /* оновлено */
+    cursor: pointer;
+    position: relative;
+    padding: 1rem 2.5rem;
+    background-color: #61dafb; /* оновлено */
+    border: 0.2rem solid #61dafb; /* оновлено */
+    border-radius: 3rem;
+    box-shadow: 0 0 0.2em 0px var(--button-shadow-1),
+    inset 0 0 0.3em 0 var(--button-shadow-2),
+    inset 0 0 0.2em 0 var(--button-shadow-1),
+    0 0 calc(var(--hover) * 6em) 0 var(--button-border);
+    color: var(--button-label);
+    font: 500 clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem) / 1 "Inter", sans-serif;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    transition: box-shadow 0.25s linear;
+    .glow {
+        pointer-events: none;
+        display: block;
+        position: absolute;
+        inset: 0;
+        border: inherit;
+        border-radius: 3em;
+        filter: blur(2px);
+    }
+    &:hover {
+        --hover: 1;
+        transition: box-shadow 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+    }
+}
+
+:root {
+    --bg: #61dafb; /* оновлено */
+}
